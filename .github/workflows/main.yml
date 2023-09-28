@@ -6,7 +6,7 @@ on:
      - branch1
 jobs: 
    build-and-deploy:
-     runs-on: ubntu-latest
+     runs-on: macOS
      steps:
      - name: checkout 
        uses: actions/checkout@v1
