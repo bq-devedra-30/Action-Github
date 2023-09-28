@@ -5,7 +5,7 @@ on:
      branches: 
      - branch1
 jobs: 
-   build-and-deploy:
+   build:
      runs-on: macOS
      steps:
      - name: checkout 
